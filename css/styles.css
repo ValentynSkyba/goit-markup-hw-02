@@ -10,11 +10,11 @@ body {
 
 .logo {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
@@ -31,7 +31,7 @@ body {
 .nav {
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5x;
+  line-height: 1.5;
   letter-spacing: 0.32px;
   list-style-type: none;
 }
@@ -53,9 +53,12 @@ body {
 }
 
 .adress {
+  font-style: normal;
+}
+
+.adress-list {
   font-size: 16px;
   font-weight: 400;
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.32px;
   list-style-type: none;
@@ -66,7 +69,8 @@ body {
   text-decoration: none;
 }
 
-.adress-link:hover {
+.adress-link:hover,
+.adress-link:focus {
   color: #404bbf;
 }
 
@@ -75,11 +79,13 @@ body {
   background-color: #2e2f42;
 }
 
-h1 {
+.main-info {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .button {
@@ -94,7 +100,8 @@ h1 {
   cursor: pointer;
 }
 
-.botton:hover {
+.botton:hover,
+.botton:focus {
   color: #404bbf;
 }
 
@@ -127,6 +134,22 @@ p {
 
 .target-list {
   list-style-type: none;
+}
+
+.target-h {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.target-par: {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
 .team {
