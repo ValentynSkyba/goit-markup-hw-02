@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
 
@@ -21,34 +21,44 @@
   </head>
 
   <body>
-    <header>
+    <heade>
       <!-- Navigation -->
       <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="#no_scroll">Studio</a></li>
-          <li><a href="#no_scroll">Portfolio</a></li>
-          <li><a href="#no_scroll">Contacts</a></li>
+        <a class="logo" href="./index.html"
+          >Web<span class="logo-black">Studio</span></a
+        >
+        <ul class="nav">
+          <li><a class="nav-link" href="./">Studio</a></li>
+          <li><a class="nav-link" href="./">Portfolio</a></li>
+          <li><a class="nav-link" href="./">Contacts</a></li>
         </ul>
       </nav>
       <!-- Contacts header-->
       <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <ul class="adress">
+          <li>
+            <a class="adress-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="adress-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
-    </header>
+    </heade>
     <main>
       <!-- Main page-->
-      <section>
+      <section class="main">
         <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <button class="button" type="button">Order Service</button>
       </section>
       <!-- Target-->
       <section>
         <h2>Секція №2</h2>
-        <ul>
+        <ul class="target-list">
           <li>
             <h3>Strategy</h3>
             <p>
@@ -80,9 +90,9 @@
         </ul>
       </section>
       <!-- Our Team + photo https://squoosh.app/-->
-      <section>
+      <section class="team">
         <h2>Our Team</h2>
-        <ul>
+        <ul class="team-list">
           <li>
             <img
               src="./images/mark_guerrero.jpg"
@@ -117,13 +127,13 @@
           </li>
         </ul>
       </section>
-      <!-- Section Our Portfolio-->
+      <!-- Section Our Portfolio + photo https://squoosh.app-->
       <section>
         <h2>Our Portfolio</h2>
-        <ul>
+        <ul class="portfolio-list">
           <li>
             <img
-              src=".images/banking_app.jpg"
+              src="./images/banking_app.jpg"
               alt="Banking App"
               width="360 px"
             />
@@ -132,7 +142,7 @@
           </li>
           <li>
             <img
-              src=".images/cashless_payment.jpg"
+              src="./images/cashless_payment.jpg"
               alt="Cashless Payment"
               width="360 px"
             />
@@ -141,7 +151,7 @@
           </li>
           <li>
             <img
-              src=".images/meditation_app.jpg"
+              src="./images/meditation_app.jpg"
               alt="Meditation App"
               width="360 px"
             />
@@ -149,10 +159,10 @@
             <p>App</p>
           </li>
         </ul>
-        <ul>
+        <ul class="portfolio-list">
           <li>
             <img
-              src=".images/taxi_service.jpg"
+              src="./images/taxi_service.jpg"
               alt="Taxi Service"
               width="360 px"
             />
@@ -161,7 +171,7 @@
           </li>
           <li>
             <img
-              src=".images/screen_illustrations.jpg"
+              src="./images/screen_illustrations.jpg"
               alt="Screen Illustrations"
               width="360 px"
             />
@@ -170,7 +180,7 @@
           </li>
           <li>
             <img
-              src=".images/online_courses.jpg"
+              src="./images/online_courses.jpg"
               alt="Online Courses"
               width="360 px"
             />
@@ -180,10 +190,12 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <!-- LOGO FOOTER-->
-      <a href="./index.html">WebStudio</a>
-      <p>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <a class="logo" href="./index.html"
+        >Web<span class="logo-white">Studio</span></a
+      >
+      <p class="footer-par">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
